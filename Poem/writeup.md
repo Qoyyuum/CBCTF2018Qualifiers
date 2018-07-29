@@ -1,6 +1,12 @@
 # Poem
 
-Question: Find puisi's password.
+Packet Analysis : 50 Points
+
+## Question:
+
+Find puisi's password.
+
+## How I got the flag
 
 Followed the TCP Stream to find any clue or mention for "puisi".
 
@@ -8,7 +14,7 @@ Found in the TCP stream for `FTP->Data`. His name plus id and an ecrypted passwo
 
 `puisi:108:387525169d079af5aad3b435b51404ee:662c4a8b01e03715d2bb3ec52261f23d:::`
 
-I figured the `387525169d079af5aad3b435b51404ee:662c4a8b01e03715d2bb3ec52261f23d` must be the password but there's a `:` in between. Might be a password check.
+I figured the `387525169d079af5aad3b435b51404ee:662c4a8b01e03715d2bb3ec52261f23d` must be the password but there's a `:` in between. Might be a password check between these 2 strings.
 
 Passed it on to my teammate Faten who managed to crack this and found the flag. Either way, it was decrypted to find Pelangi as the puisi's password.
 

@@ -1,6 +1,6 @@
 # CB_Online_Banking
 
-50 Points
+Web : 50 Points
 
 ## Question
 

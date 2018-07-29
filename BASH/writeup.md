@@ -1,6 +1,6 @@
 # B@SH
 
-50 Points
+Exploitation : 50 Points
 
 ## Question
 

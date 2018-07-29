@@ -1,6 +1,6 @@
 # Mr. Postman
 
-50 Points
+Crypto : 50 Points
 
 ## Question
 
