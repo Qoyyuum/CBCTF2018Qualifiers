@@ -8,6 +8,8 @@ Can you help decode this?
 
 ## How I got the flag
 
+![MaxiCode](https://raw.githubusercontent.com/Qoyyuum/CBCTF2018Qualifiers/master/mr_postman/postman.jpg)
+
 First thought it was a QR code. Tried to scan. Nothing. Maybe something is in it. Checked with file, and binwalk. Nothing and its too small for anything hidden. This is crypto so maybe its the image more.
 
 I just did a Reverse Google Image to find out more about it.
